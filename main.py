@@ -16,7 +16,6 @@ model = YOLO('model/best.pt')
 class_names = ["Apple", "Banana", "Grape", "Orange", "Pineapple", "Watermelon"]
 
 
-
 serveraddr = ("127.0.0.1", 2000)
 buffersize = 1024
 
